@@ -1,0 +1,17 @@
+.movie{
+   
+    box-shadow: rgba(0, 0, 0, 69)0px 25px 30px -10px,
+     rgba(0, 0, 0, 73)0px 16px 10px -10px,
+
+}
+.movie:hover {
+    box-shadow:rgba(0, 0, 0,80)0px 40px 58px -16px,
+    rgba(0, 0, 0, 72)0px 30px 22px -10px,
+;
+    transform: scale(1.25);
+    transition: transform .7s;
+    border-color: rgba(249, 249, 249, .8);
+}
+p{
+    line-height: 30px;
+}

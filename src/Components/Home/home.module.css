@@ -1,0 +1,62 @@
+img{
+    z-index: 1;
+    opacity: 1;
+}
+video {
+   
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 0;
+}
+.wrap{
+    border: 3px solid rgba(249, 249, 249, .1);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 69)0px 25px 30px -10px,
+     rgba(0, 0, 0, 73)0px 16px 10px -10px,
+
+    
+    ;
+}
+
+.wrap:hover {
+    box-shadow:rgba(0, 0, 0,80)0px 40px 58px -16px,
+    rgba(0, 0, 0, 72)0px 30px 22px -10px,
+;
+    transform: scale(1.1);
+    border-color: rgba(249, 249, 249, .8);
+    transition: transform .5s;
+
+
+    
+}
+.wrap:hover video{
+    opacity: 1;
+}
+.wrap:hover img {
+    text-align: center;
+    margin: auto;
+    transform:  scale(.75);
+    transition: transform .5s;
+
+}
+.movie{
+   
+    box-shadow: rgba(0, 0, 0, 69)0px 25px 30px -10px,
+     rgba(0, 0, 0, 73)0px 16px 10px -10px,
+
+}
+.movie:hover {
+    box-shadow:rgba(0, 0, 0,80)0px 40px 58px -16px,
+    rgba(0, 0, 0, 72)0px 30px 22px -10px,
+;
+transform: scale(1.20);
+transition: transform .7s;
+    border-color: rgba(249, 249, 249, .8);
+}
+
+.movie:hover img {
+    transform: scale(1.15);
+    transition: transform .7s;
+}
+

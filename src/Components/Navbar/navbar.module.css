@@ -1,0 +1,35 @@
+
+
+.logo{
+    padding: 0;
+    width: 80px;
+    max-height: 70px;
+    font-size: 0;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+
+.icon { 
+    font-size: 11px;
+}
+li{
+    font-size:14px;
+    color: #f9f9f9;
+}
+
+.log {
+    border: white 2px solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+
+    color: #f9f9f9!important;
+    letter-spacing: 2px !important;
+    font-weight: bolder !important;
+    background-color: transparent;
+}
+button:hover{ background-color: #f9f9f9;
+color: black!important}
