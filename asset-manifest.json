@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Disney-plus-Clone/static/css/main.443a9934.css",
-    "main.js": "/Disney-plus-Clone/static/js/main.30f8f71a.js",
+    "main.js": "/Disney-plus-Clone/static/js/main.8add47f0.js",
     "static/js/787.2357b51a.chunk.js": "/Disney-plus-Clone/static/js/787.2357b51a.chunk.js",
     "static/media/1564676296-national-geographic.mp4": "/Disney-plus-Clone/static/media/1564676296-national-geographic.bf1b675d8d0beb6c25bc.mp4",
     "static/media/1608229455-star-wars.mp4": "/Disney-plus-Clone/static/media/1608229455-star-wars.90fa9f5ae993d23505b5.mp4",
@@ -24,11 +24,11 @@
     "static/media/fa-v4compatibility.woff2": "/Disney-plus-Clone/static/media/fa-v4compatibility.2ec4574b00d1d21ed0a3.woff2",
     "index.html": "/Disney-plus-Clone/index.html",
     "main.443a9934.css.map": "/Disney-plus-Clone/static/css/main.443a9934.css.map",
-    "main.30f8f71a.js.map": "/Disney-plus-Clone/static/js/main.30f8f71a.js.map",
+    "main.8add47f0.js.map": "/Disney-plus-Clone/static/js/main.8add47f0.js.map",
     "787.2357b51a.chunk.js.map": "/Disney-plus-Clone/static/js/787.2357b51a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.443a9934.css",
-    "static/js/main.30f8f71a.js"
+    "static/js/main.8add47f0.js"
   ]
 }
