@@ -77,7 +77,7 @@ export default function Navbar(props)
                             </li>
                            
                             <li className="nav-item active">
-                                <Link to={''} className="nav-link" href="#">
+                                <Link to={'originals'} className="nav-link" href="#">
                                     <i className={"fa-solid fa-star text-white p-2 " + x.icon}></i>
                                     ORIGINALS
                                 </Link>

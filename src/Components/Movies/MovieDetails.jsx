@@ -81,6 +81,7 @@ export default function MovieDetails()
 
   return (
     <>
+      <div className="container">
         
 
       <div className="row">
@@ -126,15 +127,15 @@ export default function MovieDetails()
         <div className="col-md-6">
 
         {/* Similar Movies */}
-        <div className="row  ">
+        <div className="row  m-auto  p-2 text-center   ">
       <h5 className=' mb-2 mt-lg-5 ' >Similar Movies</h5>
       {similarMovies.map((movie, i) => <>
         <div key={i} className={"col-md-3"}>
         <Link to={`/movieDetails/${movie.id} `}>
             
-            <div className={" w-100 h-100  m-2  rounded  "+x.movie}>
+            <div className={" w-100 h-100  m-2  rounded text-center m-auto"+x.movie}>
               <img
-                className="w-100 my-4 rounded"
+                className="w-100  rounded text-center "
                 src={'https://image.tmdb.org/t/p/w500' + movie.poster_path}
                 alt=""
               />
@@ -170,13 +171,13 @@ export default function MovieDetails()
 
         
               
-      <div className="row">
+      <div className="row m-auto  p-2 gap-3 text-center  position-relative ">
         <h2> The Cast</h2>
         {cast.map((cast, i) => <>
           <div key={i} className="col-md-2 my-1 p-4">
-            <div className={' w-100 h-100  p-4 rounded '+x.movie}>
+            <div className={' w-100 h-100  p-4  rounded-circle'+x.movie}>
                   
-              <img src={'https://image.tmdb.org/t/p/w500' + cast.profile_path} className="w-100 h-100 rounded" alt='' />
+              <img src={'https://image.tmdb.org/t/p/w500' + cast.profile_path} className="w-100 h-100 rounded-circle" alt='' />
             </div>
             <div className="  ">
               <p className="h6 my-4"> {cast.original_name} in {cast.character} </p>
@@ -209,7 +210,7 @@ export default function MovieDetails()
              
            {/* RECOMENDED FOR YOU */}
 
-            <div className="row  mt-lg-5 my-5">
+            <div className="row  mt-lg-5 my-5 row m-auto  p-2 gap-3 text-center justify-content-between position-relative">
       <h5 className=' mb-2 mt-lg-5 my-5' >More like this</h5>
       {recomended.map((movie, i) => <>
         <div key={i} className={"col-md-1"}>
@@ -229,7 +230,7 @@ export default function MovieDetails()
         )}
       </div>
             
-         
+      </div>
     </>
   )
 }

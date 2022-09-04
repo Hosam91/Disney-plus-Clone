@@ -55,7 +55,7 @@ export default function SeriesDetails() {
 
   return (<>
     
-
+    <div className="container">
     <div className="row">
       <div className="col-md-6   mt-1">
         {tvdetails?
@@ -157,7 +157,8 @@ export default function SeriesDetails() {
               </div>
             </>
           ))}
-        </div>
+      </div>
+      </div>
     </>
   )
 }

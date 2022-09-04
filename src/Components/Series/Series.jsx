@@ -24,6 +24,7 @@ export default function Series()
 
   return (<>
   
+    <div className="container">
    {/* trending TV */}
    <div className="row">
         <h5 className='mb-4 mt-4' >Disney plus Highlight SERIRS</h5>
@@ -105,7 +106,7 @@ export default function Series()
   
   
   
-  
+      </div>
   
   </>
    

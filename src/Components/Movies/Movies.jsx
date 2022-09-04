@@ -10,6 +10,8 @@ export default function Movies()
   let {trendingMovies, DiscoverMovie}= useContext(MoviesContext)
 
   return (<>
+          <div className="container">
+
       <div className="row">
       <h5 className='mb-4 mt-4' >Disney plus Highlight Movies</h5>
       {trendingMovies.map((movie, i) => <>
@@ -59,7 +61,7 @@ export default function Movies()
   
   
   
-  
+  </div>
   </>
     
   )

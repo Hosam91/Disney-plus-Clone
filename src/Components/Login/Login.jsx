@@ -71,8 +71,9 @@ export default function Login(props) {
     return schema.validate(user, { abortEarly: false })
   }
 
-  return (
-    <>
+  return (<>
+    <div className={x.login}>
+    <div className="container">
       <div className=' d-flex flex-column'>
       <img src={logo1} alt="" className='text-center m-auto mb-5' />
       <form onSubmit={submitLogin} className="mt-5 mb-5 mx-auto w-50  ">
@@ -112,6 +113,8 @@ export default function Login(props) {
           
       </form>
       <img src={logo2} alt="" className='text-center m-auto mt-5' />
+      </div>
+      </div>
       </div>
     </>
   )

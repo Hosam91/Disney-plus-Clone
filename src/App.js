@@ -14,6 +14,7 @@ import React, { useEffect, useState } from 'react'
 import MoviesContextProvider from './Components/store/store';
 import MovieDetails from './Components/Movies/MovieDetails.jsx';
 import SeriesDetails from './Components/Series/SeriesDetails';
+import Originals from './Components/Originals/Originals';
 
 
 function App()
@@ -62,7 +63,7 @@ function App()
     < MoviesContextProvider>
     <Navbar userData={userData} logout={ logout}/>
 
-    <div className="container ">
+    {/* <div className="container "> */}
       <Routes>
         <Route path='/' element={<Home/> } />
         <Route path='home' element={ <Home/>} />
@@ -83,7 +84,7 @@ function App()
 
         <Route path='search' element={<Search />} />
         <Route path='register' element={<Register  />} />
-
+        <Route path='originals' element={<Originals  />} />
 
       <Route path='*' element={<> <h1>404 Eror<br/>Not Found</h1></> } />
         
@@ -91,7 +92,7 @@ function App()
 
         </Routes>
 
-      </div>
+      {/* </div> */}
       </MoviesContextProvider>
     </>
   );

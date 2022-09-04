@@ -86,7 +86,14 @@ let [isLoading,setIsLoading]=useState(false)
 
 
 
-  return (<div className=' d-flex flex-column'>
+  return (<>
+    <div className={x.login}>
+      <div className="container">
+
+    
+    
+    
+    <div className=' d-flex flex-column'>
       <img src={logo1} alt="" className='text-center m-auto' />
     <form onSubmit={submitRegister} className="mt-3 mx-auto w-50  ">
     {error.length > 0 ? (
@@ -160,7 +167,9 @@ let [isLoading,setIsLoading]=useState(false)
     </form>
 <img src={logo2} alt="" className='p-5' />
   </div>
-  
+  </div>
+    </div>
+  </>
 
   )
 }
