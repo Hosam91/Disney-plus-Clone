@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Disney-plus-Clone/static/css/main.443a9934.css",
-    "main.js": "/Disney-plus-Clone/static/js/main.8add47f0.js",
+    "main.css": "/Disney-plus-Clone/static/css/main.79e67221.css",
+    "main.js": "/Disney-plus-Clone/static/js/main.545fed62.js",
     "static/js/787.2357b51a.chunk.js": "/Disney-plus-Clone/static/js/787.2357b51a.chunk.js",
     "static/media/1564676296-national-geographic.mp4": "/Disney-plus-Clone/static/media/1564676296-national-geographic.bf1b675d8d0beb6c25bc.mp4",
     "static/media/1608229455-star-wars.mp4": "/Disney-plus-Clone/static/media/1608229455-star-wars.90fa9f5ae993d23505b5.mp4",
@@ -13,7 +13,11 @@
     "static/media/fa-brands-400.ttf": "/Disney-plus-Clone/static/media/fa-brands-400.aff1938a5c48584fa92b.ttf",
     "static/media/fa-solid-900.woff2": "/Disney-plus-Clone/static/media/fa-solid-900.64d495f582d4a1590a6c.woff2",
     "static/media/fa-brands-400.woff2": "/Disney-plus-Clone/static/media/fa-brands-400.a914b121110f8b6e01c9.woff2",
+    "static/media/3.jpg": "/Disney-plus-Clone/static/media/3.172c6eadbd086a14e2b2.jpg",
+    "static/media/1.jpg": "/Disney-plus-Clone/static/media/1.36599446c404fd8b5989.jpg",
     "static/media/fa-regular-400.ttf": "/Disney-plus-Clone/static/media/fa-regular-400.625dca125b58060788da.ttf",
+    "static/media/4.jpg": "/Disney-plus-Clone/static/media/4.f921e314b30619f8ab7d.jpg",
+    "static/media/2.jpg": "/Disney-plus-Clone/static/media/2.b33dd5b6b1aab9795814.jpg",
     "static/media/logo.png": "/Disney-plus-Clone/static/media/logo.55801a6de34949b00453.png",
     "static/media/fa-regular-400.woff2": "/Disney-plus-Clone/static/media/fa-regular-400.47074dec01b64a5db2c4.woff2",
     "static/media/viewers-starwars.png": "/Disney-plus-Clone/static/media/viewers-starwars.3fb2e20c0faee83d89db.png",
@@ -23,12 +27,12 @@
     "static/media/fa-v4compatibility.ttf": "/Disney-plus-Clone/static/media/fa-v4compatibility.ea8535110e0c42fd0046.ttf",
     "static/media/fa-v4compatibility.woff2": "/Disney-plus-Clone/static/media/fa-v4compatibility.2ec4574b00d1d21ed0a3.woff2",
     "index.html": "/Disney-plus-Clone/index.html",
-    "main.443a9934.css.map": "/Disney-plus-Clone/static/css/main.443a9934.css.map",
-    "main.8add47f0.js.map": "/Disney-plus-Clone/static/js/main.8add47f0.js.map",
+    "main.79e67221.css.map": "/Disney-plus-Clone/static/css/main.79e67221.css.map",
+    "main.545fed62.js.map": "/Disney-plus-Clone/static/js/main.545fed62.js.map",
     "787.2357b51a.chunk.js.map": "/Disney-plus-Clone/static/js/787.2357b51a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.443a9934.css",
-    "static/js/main.8add47f0.js"
+    "static/css/main.79e67221.css",
+    "static/js/main.545fed62.js"
   ]
 }
