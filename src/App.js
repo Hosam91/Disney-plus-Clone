@@ -14,7 +14,6 @@ import React, { useEffect, useState } from 'react'
 import MoviesContextProvider from './Components/store/store';
 import MovieDetails from './Components/Movies/MovieDetails.jsx';
 import SeriesDetails from './Components/Series/SeriesDetails';
-import Originals from './Components/Originals/Originals';
 
 
 function App()
@@ -84,7 +83,6 @@ function App()
 
         <Route path='search' element={<Search />} />
         <Route path='register' element={<Register  />} />
-        <Route path='originals' element={<Originals  />} />
 
       <Route path='*' element={<> <h1>404 Eror<br/>Not Found</h1></> } />
         
